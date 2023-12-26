@@ -1,0 +1,52 @@
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.upload {
+    padding: 20px 40px;
+    border-radius: 16px;
+    border: 1px dashed whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.option_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+/* .option {
+    padding: 20px 40px;
+    border-radius: 16px;
+    border: 1px dashed whitesmoke;
+    width: 300px;
+    appearance: none;
+} */
+
+.dropdown_icon {
+    position: absolute;
+    right: 40px;
+}
+
