@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black !important;
 }
 
 .OTP_container input {
@@ -12,8 +13,10 @@
     text-align: center;
     margin-right: 20px;
     border: 0.2px solid #6F7978;
+    color: black !important;
 }
 
 .otpInput {
     font-size: 50px;
+    color: black !important;
 }

@@ -4,16 +4,10 @@ import styles from './OTP.module.css';
 
 const OTP = () => {
   const [otp, setOtp] = useState('');
-  const handleOTPChange = (element, index) => {
-    if (isNaN(element.value)) return false;
 
-    setOtp([...otp.map((d, idx) => (idx === index ? element.value : d))]);
-
-    // Focus next input
-    if (element.nextSibling) {
-      element.nextSibling.focus();
-    }
-  };
+  const handleOTPChange = (setOtp) => {
+    setOtp(otp);
+  }
 
   return (
     <>
