@@ -1,0 +1,20 @@
+.container {
+    height: 100vh;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.select {
+    background-color: olive;
+    color: white;
+    margin: -9px 0;
+
+    &:hover {
+        background-color: green;
+        color: white;
+    }
+}
