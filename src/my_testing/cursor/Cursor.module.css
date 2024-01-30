@@ -1,0 +1,70 @@
+/* .cursor {
+    height: 100px;
+    width: 1000px;
+    border-radius: 500px;
+    background-color: rgb(235, 164, 255);
+    position: fixed;
+    pointer-events: none;
+    box-shadow: 0 0 20px rgba(255, 96, 96, 0.8);
+    filter: blur(100px);
+} */
+
+.container {
+    position: relative;
+}
+
+.circles1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    background-color: rgba(252, 180, 158, 0.52);
+    box-shadow: 0 0 20px rgba(255, 96, 96, 0.8);
+    filter: blur(100px);
+    position: absolute;
+    animation: move 5s linear 2s infinite alternate;
+}
+
+.page_content {
+    padding: 0 24px;
+    line-height: 50px;
+}
+.page_content h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.page_content p{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.page_content ul li {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 75%;
+        top: 0;
+    }
+
+    50% {
+        left: 75%;
+        top: 75%;
+    }
+
+    75% {
+        left: 0;
+        top: 75%;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.pagination button {
+    padding: 15px;
+    margin-left: 20px;
+    border: 1px doubled grey;
+}
+
+.pagination button:hover {
+    color: honeydew;
+    border: none;
+    background-color: rgb(117, 117, 117);
+}
