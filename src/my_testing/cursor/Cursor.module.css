@@ -47,8 +47,8 @@
 
 @keyframes move {
     0% {
-        left: 0;
-        top: 0;
+        left: 2%;
+        top: 2%;
         height: 600px;
         width: 500px;
     }
@@ -74,10 +74,17 @@
         width: 600px;
     }
 
-    100% {
+    90% {
         left: -50%;
         top: -60%;
         height: 600px;
         width: 700px;
+    }
+
+    100% {
+        left: 2%;
+        top: 2%;
+        height: 600px;
+        width: 500px;
     }
 }
