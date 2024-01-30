@@ -16,10 +16,10 @@
 .circles1 {
     height: 500px;
     width: 500px;
-    border-radius: 500px;
+    /* border-radius: 500px; */
     background-color: rgba(252, 180, 158, 0.52);
-    box-shadow: 0 0 20px rgba(255, 96, 96, 0.8);
-    filter: blur(100px);
+    /* box-shadow: 0 0 20px rgba(255, 96, 96, 0.8); */
+    /* filter: blur(100px); */
     position: absolute;
     animation: move 5s linear 2s infinite alternate;
 }
@@ -49,12 +49,12 @@
     }
 
     25% {
-        left: 75%;
+        left: 68%;
         top: 0;
     }
 
     50% {
-        left: 75%;
+        left: 68%;
         top: 75%;
     }
 
