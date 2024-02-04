@@ -13,12 +13,14 @@ import Reload from './components/reload/Reload'
 import ReactPDF from './components/pdfVierwer/ReactPDF'
 import MUI from './components/MUI/MUI'
 import Cursor from './my_testing/cursor/Cursor'
+import Animation from './my_testing/Stripe_animation_website/Animation'
 
 
 const App = () => {
   return (
     <Routes>
       <Route exact path='/' element={<Cursor />} />
+      <Route exact path='/stripe_animation' element={<Animation />} />
       <Route exact path='/mui' element={<MUI />} />
       <Route exact path='/pdf' element={<ReactPDF />} />
       <Route exact path='/reload' element={<Reload />} />

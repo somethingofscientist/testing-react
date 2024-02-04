@@ -1,0 +1,85 @@
+/* Setting the animation */
+@keyframes handMovement {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-0.25%);
+        transform: rotate(1.5deg);
+    }
+}
+
+@keyframes textShow {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes textScaleAndShow {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes plantMovement {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(5%);
+        transform: translateY(10%);
+        transform: rotateY(19deg);
+    }
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 85%;
+    margin: auto;
+}
+
+#extendedArm {
+    transform-origin: 85% 11%;
+    animation: 1.5s ease-in-out infinite alternate running handMovement;
+}
+
+#primaryText {
+    transform-origin: center;
+    animation: 4s ease-in-out infinite alternate textScaleAndShow;
+}
+
+#secondaryText {
+    animation: 3s linear infinite alternate textShow;
+}
+
+#tertiaryText {
+    animation: 7s linear infinite alternate textShow;
+}
+
+#plant {
+    transform-origin: top right;
+    animation: 1.2s ease-in-out infinite alternate plantMovement;
+}
+
+
+
+
+

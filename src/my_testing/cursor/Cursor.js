@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './Cursor.module.css';
+import Man from './Man';
 
 const Cursor = () => {
     const [cursorX, setCursorX] = useState()
@@ -10,8 +11,6 @@ const Cursor = () => {
         setCursorY(e.pageY)
     })
 
-
-    // console.log('hi', cursorX, cursorY)
     return (
         <>
             {/* <div
@@ -22,9 +21,10 @@ const Cursor = () => {
                 }}
             >
             </div> */}
+            {/* <img src={Draw} alt="img" /> */}
+            <Man />
 
-
-            <div className={styles.container}>
+            {/* <div className={styles.container}>
                 <div className={styles.circles1}></div>
                 <div className={styles.page_content}>
                     <h1>heading</h1>
@@ -74,7 +74,7 @@ const Cursor = () => {
                         </ol>
                     </ul>
                 </div>
-            </div>
+            </div> */}
 
 
         </>
